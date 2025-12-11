@@ -344,7 +344,7 @@ export default function Portfolio() {
                className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 rounded-lg transition-all font-semibold shadow-lg shadow-indigo-900/50">
               Send Email
             </a>
-            <a href="https://linkedin.com/in/rozsayan01" target="_blank" rel="noopener noreferrer"
+            <a href="https://linkedin.com/in/roysayan01" target="_blank" rel="noopener noreferrer"
                className="px-8 py-3 bg-gradient-to-r from-slate-800 to-slate-700 hover:from-slate-700 hover:to-slate-600 rounded-lg transition-all font-semibold shadow-lg border border-slate-700/50">
               Connect on LinkedIn
             </a>
@@ -355,7 +355,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-slate-800/50 bg-slate-900/50 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto text-center text-slate-400">
-          <p>© 2024 Sayan Roy. Built with React & Tailwind CSS</p>
+          <p>© 2025 Sayan Roy. Built with React & Tailwind CSS</p>
         </div>
       </footer>
     </div>
