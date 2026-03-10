@@ -77,6 +77,7 @@ export default function Portfolio() {
               { name: 'Experience', id: 'experience' },
               { name: 'Projects', id: 'projects' },
               { name: 'Skills', id: 'skills' },
+              { name: 'Resources', id: 'resources' },
               { name: 'Contact', id: 'contact' }
             ].map((item) => (
               <button
@@ -326,6 +327,57 @@ export default function Portfolio() {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+       {/* Resources Section */}
+      <section id="resources" className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h3 className="text-3xl font-bold mb-8 flex items-center gap-3">
+            <FileCode className="text-cyan-400" /> Resources & Notes
+          </h3>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <a href="https://sayanroy44617.github.io/KnowledgeBase/" target="_blank" rel="noopener noreferrer"
+               className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 p-8 rounded-xl border border-slate-700/50 backdrop-blur-sm shadow-xl hover:border-indigo-500/30 transition-all group">
+              <div className="flex items-start justify-between mb-4">
+                <h4 className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+                  📝 My Notes Collection
+                </h4>
+                <svg className="w-6 h-6 text-slate-400 group-hover:text-indigo-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </div>
+              <p className="text-slate-300 mb-4">
+                Centralized knowledge base with personal notes on software development, system design, architecture patterns, and best practices.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-indigo-900/30 text-indigo-300 rounded-full text-xs border border-indigo-700/30">System Design</span>
+                <span className="px-3 py-1 bg-indigo-900/30 text-indigo-300 rounded-full text-xs border border-indigo-700/30">Architecture</span>
+                <span className="px-3 py-1 bg-indigo-900/30 text-indigo-300 rounded-full text-xs border border-indigo-700/30">Best Practices</span>
+              </div>
+            </a>
+
+            <a href="https://sayanroy44617.github.io/KnowledgeBase/dsa/dsa-decision-tree.html" target="_blank" rel="noopener noreferrer"
+               className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 p-8 rounded-xl border border-slate-700/50 backdrop-blur-sm shadow-xl hover:border-purple-500/30 transition-all group">
+              <div className="flex items-start justify-between mb-4">
+                <h4 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                  🧠 DSA Pattern Navigator
+                </h4>
+                <svg className="w-6 h-6 text-slate-400 group-hover:text-purple-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </div>
+              <p className="text-slate-300 mb-4">
+                Interactive tree-based tool to identify which DSA pattern a coding problem belongs to. Navigate through questions to classify problems and understand the right approach.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Interactive Tool</span>
+                <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Pattern Classifier</span>
+                <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Problem Solving</span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
