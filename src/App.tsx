@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, Phone, Code, Server, Database, FileCode, Sparkles } from 'lucide-react';
-
+const roles = ['Software Developer', 'Backend Engineer', 'DevOps Engineer', 'AI Enthusiast'];
 export default function Portfolio() {
   const [currentRole, setCurrentRole] = useState(0);
-  const roles = ['Software Developer', 'Backend Engineer', 'DevOps Engineer', 'AI Enthusiast'];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -361,22 +360,22 @@ export default function Portfolio() {
 
             <a href="https://sayanroy44617.github.io/KnowledgeBase/dsa/dsa-decision-tree.html" target="_blank" rel="noopener noreferrer"
                className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 p-8 rounded-xl border border-slate-700/50 backdrop-blur-sm shadow-xl hover:border-purple-500/30 transition-all group">
-              <div className="flex items-start justify-between mb-4">
-                <h4 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  🧠 DSA Pattern Navigator
-                </h4>
-                <svg className="w-6 h-6 text-slate-400 group-hover:text-purple-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </div>
-              <p className="text-slate-300 mb-4">
-                Interactive tree-based tool to identify which DSA pattern a coding problem belongs to. Navigate through questions to classify problems and understand the right approach.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Interactive Tool</span>
-                <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Pattern Classifier</span>
-                <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Problem Solving</span>
-              </div>
+                <div className="flex items-start justify-between mb-4">
+                  <h4 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    🧠 DSA Pattern Navigator
+                  </h4>
+                  <svg className="w-6 h-6 text-slate-400 group-hover:text-purple-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </div>
+                <p className="text-slate-300 mb-4">
+                  Interactive tree-based tool to identify which DSA pattern a coding problem belongs to. Navigate through questions to classify problems and understand the right approach.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Interactive Tool</span>
+                  <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Pattern Classifier</span>
+                  <span className="px-3 py-1 bg-purple-900/30 text-purple-300 rounded-full text-xs border border-purple-700/30">Problem Solving</span>
+                </div>
             </a>
           </div>
         </div>
